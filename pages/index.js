@@ -48,7 +48,7 @@ export default function Home() {
 
       <div className={styles.rightMain}>
         <div className={styles.rightMainItem}>
-          <div></div>
+          <div className={styles.ItemTitle}>Crypto Currencies</div>
         </div>
       </div>
     </div>
