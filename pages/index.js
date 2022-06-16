@@ -5,7 +5,15 @@ import {AiOutlinePlus} from 'react-icons/ai'
 
 
 const styles = {
-  wrapper: 'w-screen h-screen flex flex-col'
+  wrapper: 'w-screen h-screen flex flex-col',
+  mainContainer: "w-2/3 h-full m-auto flex mt-16",
+  leftMain: "flex flex-col w-3/4 h-full p-6 overflow-y-scroll",
+  portfolioAmountContainer: 'flex flex-col',
+  portfolioAmount: 'text-white text-4xl',
+  portfolioPercent: 'text-white font-bold text-sm',
+  pastHour: 'text-gray-400',
+  chartContainer: "text-5xl flex justify-center w-full h-1/3 text-white mt-11 mb-11",
+  buyingPowerContainer: "w-full border-t mb-24 border-b h-16 border-[#30363b] flex justify-between item"
 }
 
 export default function Home() {
@@ -15,7 +23,6 @@ export default function Home() {
       <div className={styles.mainContainer}>
 
         <div className={styles.leftMain}> 
-        
         
 
                   <div className={styles.portfolioAmountContainer}>
@@ -62,7 +69,6 @@ export default function Home() {
         <Asset /> */}
 
         <div className={styles.rightMainItem} >
-
 
           <div className={styles.ItemTitle}>Lists</div>
 

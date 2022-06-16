@@ -1,1 +1,4 @@
 19:11  - need to begin adding react icons
+22:40 - finish adding tailwind csss objects 
+
+https://youtu.be/iMst9GE8wIM?t=1371
